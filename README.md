@@ -18,7 +18,7 @@ This project is built around the **Dual Active Bridge (DAB) converter**, a widel
 
 ## Approach
 
-I started by studying the DAB converter's structure and control using phase-shift modulation, then designed the power stage — including the high-frequency transformer — around a 3 kW target. After simulating the circuit to check the expected voltage, current, and power behavior, I built the design as a hardware prototype and tested it on the bench to confirm it performs as expected.
+I started by studying the DAB converter's structure and control using phase-shift modulation, then designed the power stage — including the high-frequency transformer around a 3 kW target. After simulating the circuit to check the expected voltage, current, and power behavior, I built the design as a hardware prototype and tested it on the bench to confirm it performs as expected.
 
 The next phase of the project involves adding sensing hardware and a control loop, along with a CAN interface to communicate with the battery, so the converter can move from a fixed, open-loop design to one that responds to real battery conditions.
 
@@ -27,7 +27,7 @@ The next phase of the project involves adding sensing hardware and a control loo
 
 So far, I've designed and built a **single-phase DAB converter** and tested it in hardware, achieving a stable **3 kW output**. The converter currently runs in **open-loop**, meaning the output is not yet actively regulated through feedback.
 
-## What I'm Working on Now
+## Work Left
 
 I'm currently developing a **closed-loop version of this DAB converter**, which will include:
 
